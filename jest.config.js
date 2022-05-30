@@ -6,5 +6,5 @@ module.exports = {
   transformIgnorePatterns: [],
 
   // Doesn't work either with that:
-  // transformIgnorePatterns: ['/node_modules/(?!ky-universal/)'],
+  // transformIgnorePatterns: ['/node_modules/(?!ky-universal)'],
 }
