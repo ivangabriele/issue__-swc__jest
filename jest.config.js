@@ -1,18 +1,7 @@
 module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   transform: {
-    '.*\\.(js|ts)x?$': [
-      '@swc/jest',
-      {
-        jsc: {
-          transform: {
-            react: {
-              runtime: 'automatic',
-            },
-          },
-        },
-      },
-    ],
+    '.*\\.(j|t)sx?$': ['@swc/jest'],
   },
   transformIgnorePatterns: [],
 
